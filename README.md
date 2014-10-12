@@ -1,6 +1,7 @@
 # getprototypeof
 
-As [the shim sham here](https://github.com/es-shims/es5-shim#shams).
+As [the shim sham here](https://github.com/es-shims/es5-shim#shams), as a
+function.
 
 ## Install
 

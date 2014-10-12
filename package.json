@@ -1,0 +1,23 @@
+{
+  "name": "getprototypeof",
+  "version": "1.0.0",
+  "description": "Object.getPrototypeOf sham function",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mightyiam/getprototypeof.git"
+  },
+  "keywords": [
+    "shim",
+    "browser"
+  ],
+  "author": "Shahar Or <mightyiampresence@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mightyiam/getprototypeof/issues"
+  },
+  "homepage": "https://github.com/mightyiam/getprototypeof"
+}
