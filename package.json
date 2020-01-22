@@ -1,23 +1,34 @@
 {
-  "name": "getprototypeof",
-  "version": "1.0.0",
-  "description": "Object.getPrototypeOf sham function",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/mightyiam/getprototypeof.git"
-  },
-  "keywords": [
-    "shim",
-    "browser"
-  ],
-  "author": "Shahar Or <mightyiampresence@gmail.com>",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/mightyiam/getprototypeof/issues"
-  },
-  "homepage": "https://github.com/mightyiam/getprototypeof"
+	"name": "getprototypeof",
+	"version": "1.0.0",
+	"description": "An ES5 mostly-spec-compliant `Object.getPrototypeOf` sham/polyfill/replacement that works in as many engines as possible",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/es-shims/Object.getPrototypeOf.git"
+	},
+	"keywords": [
+		"Object.getPrototypeOf",
+		"proto",
+		"__proto__",
+		"[[Prototype]]",
+		"getPrototypeOf",
+		"ES5",
+		"shim",
+		"polyfill",
+		"es-shim API",
+		"browser"
+	],
+	"author": "Jordan Harband <ljharb@gmail.com>",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/es-shims/Object.getPrototypeOf/issues"
+	},
+	"homepage": "https://github.com/es-shims/Object.getPrototypeOf",
+	"engines": {
+		"node": ">= 0.4"
+	}
 }
