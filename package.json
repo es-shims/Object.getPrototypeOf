@@ -38,7 +38,10 @@
 	"scripts": {
 		"lint": "eslint .",
 		"pretest": "npm run lint",
-		"test": "echo \"Error: no test specified\" && exit 1",
+		"tests-only": "tape 'test/**/*.js'",
+		"tests-esm": "node test/index.mjs",
+		"test": "npm run tests-only && npm run tests-esm",
+		"posttest": "npx aud",
 		"version": "auto-changelog && git add CHANGELOG.md",
 		"postversion": "auto-changelog && git add CHANGELOG.md && git commit --no-edit --amend && git tag -f \"v$(node -e \"console.log(require('./package.json').version)\")\""
 	},
@@ -73,7 +76,8 @@
 	"devDependencies": {
 		"@ljharb/eslint-config": "^16.0.0",
 		"auto-changelog": "^1.16.2",
-		"eslint": "^6.8.0"
+		"eslint": "^6.8.0",
+		"tape": "^5.0.0-next.4"
 	},
 	"auto-changelog": {
 		"output": "CHANGELOG.md",
