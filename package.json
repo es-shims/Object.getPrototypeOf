@@ -3,6 +3,38 @@
 	"version": "1.0.0",
 	"description": "An ES5 mostly-spec-compliant `Object.getPrototypeOf` sham/polyfill/replacement that works in as many engines as possible",
 	"main": "index.js",
+	"type": "commonjs",
+	"exports": {
+		".": [
+			{
+				"import": "./index.mjs",
+				"default": "./index.js"
+			},
+			"./index.js"
+		],
+		"./polyfill": [
+			{
+				"import": "./polyfill.mjs",
+				"default": "./polyfill.js"
+			},
+			"./polyfill.js"
+		],
+		"./implementation": [
+			{
+				"import": "./implementation.mjs",
+				"default": "./implementation.js"
+			},
+			"./implementation.js"
+		],
+		"./shim": [
+			{
+				"import": "./shim.mjs",
+				"default": "./shim.js"
+			},
+			"./shim.js"
+		],
+		"./package.json": "./package.json"
+	},
 	"scripts": {
 		"lint": "eslint .",
 		"pretest": "npm run lint",
@@ -49,5 +81,10 @@
 		"unreleased": false,
 		"commitLimit": false,
 		"backfillLimit": false
+	},
+	"dependencies": {
+		"define-properties": "^1.1.3",
+		"es-abstract": "^1.17.4",
+		"which-builtin-type": "^1.0.0"
 	}
 }

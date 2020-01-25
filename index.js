@@ -1,13 +1,20 @@
-/* eslint-env node, browser */
-/* eslint no-proto: 0 */
-module.exports = function (object) {
-    "use strict";
-    var proto = object.__proto__;
-    if (proto || proto === null) {
-        return proto;
-    } else if (object.constructor) {
-        return object.constructor.prototype;
-    } else {
-        return Object.prototype;
-    }
+'use strict';
+
+var define = require('define-properties');
+
+var implementation = require('./implementation');
+var getPolyfill = require('./polyfill');
+var polyfill = getPolyfill();
+var shim = require('./shim');
+
+var bound = function getPrototypeOf(value) {
+	return polyfill(value);
 };
+
+define(bound, {
+	getPolyfill: getPolyfill,
+	implementation: implementation,
+	shim: shim
+});
+
+module.exports = bound;
