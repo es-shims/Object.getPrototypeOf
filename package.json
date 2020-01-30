@@ -36,6 +36,7 @@
 		"./package.json": "./package.json"
 	},
 	"scripts": {
+		"prepublish": "safe-publish-latest",
 		"prelint": "evalmd README.md",
 		"lint": "eslint .",
 		"pretest": "npm run lint",
@@ -79,6 +80,7 @@
 		"auto-changelog": "^1.16.2",
 		"eslint": "^6.8.0",
 		"evalmd": "^0.0.19",
+		"safe-publish-latest": "^1.1.4",
 		"tape": "^5.0.0-next.4"
 	},
 	"auto-changelog": {
