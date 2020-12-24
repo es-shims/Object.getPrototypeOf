@@ -1,8 +1,8 @@
-import callBind from 'es-abstract/helpers/callBind.js';
+import callBind from 'call-bind';
 
 import getPolyfill from 'getprototypeof/polyfill';
 
-export default getPolyfill();
+export default callBind(getPolyfill(), Object);
 
 export { default as getPolyfill } from 'getprototypeof/polyfill';
 export { default as implementation } from 'getprototypeof/implementation';

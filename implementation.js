@@ -1,8 +1,8 @@
 'use strict';
 
-var GetIntrinsic = require('es-abstract/GetIntrinsic');
-var IsCallable = require('es-abstract/2019/IsCallable');
-var ToObject = require('es-abstract/2019/ToObject');
+var GetIntrinsic = require('get-intrinsic');
+var IsCallable = require('es-abstract/2020/IsCallable');
+var ToObject = require('es-abstract/2020/ToObject');
 var whichBuiltinType = require('which-builtin-type');
 
 var $gPO = GetIntrinsic('%Object.getPrototypeOf%', true);

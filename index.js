@@ -1,10 +1,11 @@
 'use strict';
 
+var callBind = require('call-bind');
 var define = require('define-properties');
 
 var implementation = require('./implementation');
 var getPolyfill = require('./polyfill');
-var polyfill = getPolyfill();
+var polyfill = callBind(getPolyfill(), Object);
 var shim = require('./shim');
 
 var bound = function getPrototypeOf(value) {
