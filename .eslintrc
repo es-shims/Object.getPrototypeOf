@@ -15,4 +15,13 @@
 			],
 		}],
 	},
+
+	"overrides": [
+		{
+			"files": "**/*.mjs",
+			"rules": {
+				"no-restricted-exports": 1,
+			},
+		},
+	],
 }
