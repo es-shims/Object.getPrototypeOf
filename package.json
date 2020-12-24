@@ -95,6 +95,6 @@
 		"define-properties": "^1.1.3",
 		"es-abstract": "^1.18.0-next.1",
 		"get-intrinsic": "^1.0.2",
-		"which-builtin-type": "^1.0.0"
+		"which-builtin-type": "^1.0.1"
 	}
 }
