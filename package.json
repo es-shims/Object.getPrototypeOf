@@ -40,8 +40,8 @@
 		"prelint": "evalmd README.md",
 		"lint": "eslint .",
 		"pretest": "npm run lint",
-		"tests-only": "tape 'test/**/*.js'",
-		"tests-esm": "node test/index.mjs",
+		"tests-only": "nyc tape 'test/**/*.js'",
+		"tests-esm": "nyc node test/index.mjs",
 		"test": "npm run tests-only && npm run tests-esm",
 		"posttest": "aud --production",
 		"version": "auto-changelog && git add CHANGELOG.md",
@@ -81,6 +81,7 @@
 		"auto-changelog": "^2.2.1",
 		"eslint": "^7.16.0",
 		"evalmd": "^0.0.19",
+		"nyc": "^10.3.2",
 		"safe-publish-latest": "^1.1.4",
 		"tape": "^5.0.1"
 	},
