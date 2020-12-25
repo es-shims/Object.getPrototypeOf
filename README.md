@@ -1,6 +1,5 @@
 # getprototypeof <sup>[![Version Badge][npm-version-svg]][package-url]</sup>
 
-[![Build Status][travis-svg]][travis-url]
 [![dependency status][deps-svg]][deps-url]
 [![dev dependency status][dev-deps-svg]][dev-deps-url]
 [![License][license-image]][license-url]
@@ -59,9 +58,7 @@ assert.equal(Object.getPrototypeOf([]), Array.prototype);
 Simply clone the repo, `npm install`, and run `npm test`
 
 [package-url]: https://npmjs.org/package/getprototypeof
-[npm-version-svg]: http://versionbadg.es/es-shims/Object.getPrototypeOf.svg
-[travis-svg]: https://travis-ci.org/es-shims/Object.getPrototypeOf.svg
-[travis-url]: https://travis-ci.org/es-shims/Object.getPrototypeOf
+[npm-version-svg]: https://versionbadg.es/es-shims/Object.getPrototypeOf.svg
 [deps-svg]: https://david-dm.org/es-shims/Object.getPrototypeOf.svg
 [deps-url]: https://david-dm.org/es-shims/Object.getPrototypeOf
 [dev-deps-svg]: https://david-dm.org/es-shims/Object.getPrototypeOf/dev-status.svg
