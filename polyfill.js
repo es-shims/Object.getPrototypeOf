@@ -10,9 +10,20 @@ var getProto = function getPrototypeOf(value) {
 	return value.__proto__; // eslint-disable-line no-proto
 };
 
+var $getPrototypeOf = Object.getPrototypeOf;
+var getPrototypeOfPrimitivesToo = function getPrototypeOf(value) {
+	RequireObjectCoercible(value);
+	return $getPrototypeOf(Object(value));
+};
+
 module.exports = function getPolyfill() {
-	if (Object.getPrototypeOf) {
-		return Object.getPrototypeOf;
+	if ($getPrototypeOf) {
+		try {
+			$getPrototypeOf(true);
+		} catch (e) {
+			return getPrototypeOfPrimitivesToo;
+		}
+		return $getPrototypeOf;
 	}
 	if (hasProto) {
 		return getProto;
