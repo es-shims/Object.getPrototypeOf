@@ -1,6 +1,6 @@
 {
-	"name": "getprototypeof",
-	"version": "2.0.0",
+	"name": "object.getprototypeof",
+	"version": "0.0.0",
 	"description": "An ES5 mostly-spec-compliant `Object.getPrototypeOf` sham/polyfill/replacement that works in as many engines as possible",
 	"main": "index.js",
 	"type": "commonjs",

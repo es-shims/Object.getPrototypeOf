@@ -1,5 +1,5 @@
-import getPrototypeOf from 'getprototypeof';
-import * as Module from 'getprototypeof';
+import getPrototypeOf from 'object.getprototypeof';
+import * as Module from 'object.getprototypeof';
 import test from 'tape';
 import runTests from './tests.js';
 
@@ -17,9 +17,9 @@ test('named exports', async (t) => {
 	);
 
 	const { shim, getPolyfill, implementation } = Module;
-	t.equal(await import('getprototypeof/shim'), shim, 'shim named export matches deep export');
-	t.equal(await import('getprototypeof/implementation'), implementation, 'implementation named export matches deep export');
-	t.equal(await import('getprototypeof/polyfill'), getPolyfill, 'getPolyfill named export matches deep export');
+	t.equal(await import('object.getprototypeof/shim'), shim, 'shim named export matches deep export');
+	t.equal(await import('object.getprototypeof/implementation'), implementation, 'implementation named export matches deep export');
+	t.equal(await import('object.getprototypeof/polyfill'), getPolyfill, 'getPolyfill named export matches deep export');
 
 	t.end();
 });

@@ -1,4 +1,4 @@
-# getprototypeof <sup>[![Version Badge][npm-version-svg]][package-url]</sup>
+# object.getprototypeof <sup>[![Version Badge][npm-version-svg]][package-url]</sup>
 
 [![dependency status][deps-svg]][deps-url]
 [![dev dependency status][dev-deps-svg]][dev-deps-url]
@@ -14,7 +14,7 @@ This package implements the [es-shim API](https://github.com/es-shims/api) inter
 ## Example
 
 ```js
-var getPrototypeOf = require('getprototypeof');
+var getPrototypeOf = require('object.getprototypeof');
 var assert = require('assert');
 
 assert.equal(getPrototypeOf(true), Boolean.prototype);
@@ -28,7 +28,7 @@ assert.equal(getPrototypeOf({}), Object.prototype);
 ```
 
 ```js
-var getPrototypeOf = require('getprototypeof');
+var getPrototypeOf = require('object.getprototypeof');
 var assert = require('assert');
 /* when Object.getPrototypeOf is not present */
 delete Object.getPrototypeOf;
@@ -46,7 +46,7 @@ assert.equal(Object.getPrototypeOf({}), Object.prototype);
 ```
 
 ```js
-var getPrototypeOf = require('getprototypeof');
+var getPrototypeOf = require('object.getprototypeof');
 var assert = require('assert');
 /* when Object.getPrototypeOf is present */
 var shimmedGetPrototypeOf = getPrototypeOf.shim();
@@ -57,14 +57,14 @@ assert.equal(Object.getPrototypeOf([]), Array.prototype);
 ## Tests
 Simply clone the repo, `npm install`, and run `npm test`
 
-[package-url]: https://npmjs.org/package/getprototypeof
+[package-url]: https://npmjs.org/package/object.getprototypeof
 [npm-version-svg]: https://versionbadg.es/es-shims/Object.getPrototypeOf.svg
 [deps-svg]: https://david-dm.org/es-shims/Object.getPrototypeOf.svg
 [deps-url]: https://david-dm.org/es-shims/Object.getPrototypeOf
 [dev-deps-svg]: https://david-dm.org/es-shims/Object.getPrototypeOf/dev-status.svg
 [dev-deps-url]: https://david-dm.org/es-shims/Object.getPrototypeOf#info=devDependencies
-[npm-badge-png]: https://nodei.co/npm/getprototypeof.png?downloads=true&stars=true
-[license-image]: https://img.shields.io/npm/l/getprototypeof.svg
+[npm-badge-png]: https://nodei.co/npm/object.getprototypeof.png?downloads=true&stars=true
+[license-image]: https://img.shields.io/npm/l/object.getprototypeof.svg
 [license-url]: LICENSE
-[downloads-image]: https://img.shields.io/npm/dm/getprototypeof.svg
-[downloads-url]: https://npm-stat.com/charts.html?package=getprototypeof
+[downloads-image]: https://img.shields.io/npm/dm/object.getprototypeof.svg
+[downloads-url]: https://npm-stat.com/charts.html?package=object.getprototypeof
