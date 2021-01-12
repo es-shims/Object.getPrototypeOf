@@ -8,8 +8,7 @@
 		"max-statements": [2, 20],
 		"new-cap": [2, {
 			"capIsNewExceptions": [
-				"GetIntrinsic",
-				"IsCallable",
+				"ReflectGetPrototypeOf",
 				"RequireObjectCoercible",
 				"ToObject",
 			],
