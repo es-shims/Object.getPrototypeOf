@@ -5,6 +5,14 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [v1.0.1](https://github.com/es-shims/Object.getPrototypeOf/compare/v1.0.0...v1.0.1) - 2021-01-12
+
+### Commits
+
+- [Refactor] `implementation`: use `reflect.getprototypeof` [`087718f`](https://github.com/es-shims/Object.getPrototypeOf/commit/087718fab0481423efe0679a8fd76cefb335e90f)
+- [Dev Deps] update `eslint`, `tape` [`b37e609`](https://github.com/es-shims/Object.getPrototypeOf/commit/b37e609840a4912474af7b13b0730ffdcd91e9bc)
+- [Deps] update `call-bind` [`3f64439`](https://github.com/es-shims/Object.getPrototypeOf/commit/3f644397b8aaca63b4d2a5758e821ac642d783e9)
+
 ## v1.0.0 - 2021-01-12
 
 ### Commits
