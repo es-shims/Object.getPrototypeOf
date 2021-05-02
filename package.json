@@ -87,9 +87,9 @@
 	"devDependencies": {
 		"@es-shims/api": "^2.1.2",
 		"@ljharb/eslint-config": "^17.5.1",
-		"aud": "^1.1.4",
+		"aud": "^1.1.5",
 		"auto-changelog": "^2.2.1",
-		"eslint": "^7.23.0",
+		"eslint": "^7.25.0",
 		"evalmd": "^0.0.19",
 		"nyc": "^10.3.2",
 		"safe-publish-latest": "^1.1.4",
