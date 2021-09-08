@@ -17,9 +17,9 @@ test('named exports', async (t) => {
 	);
 
 	const { shim, getPolyfill, implementation } = Module;
-	t.equal(await import('object.getprototypeof/shim'), shim, 'shim named export matches deep export');
-	t.equal(await import('object.getprototypeof/implementation'), implementation, 'implementation named export matches deep export');
-	t.equal(await import('object.getprototypeof/polyfill'), getPolyfill, 'getPolyfill named export matches deep export');
+	t.equal((await import('object.getprototypeof/shim')).default, shim, 'shim named export matches deep export');
+	t.equal((await import('object.getprototypeof/implementation')).default, implementation, 'implementation named export matches deep export');
+	t.equal((await import('object.getprototypeof/polyfill')).default, getPolyfill, 'getPolyfill named export matches deep export');
 
 	t.end();
 });

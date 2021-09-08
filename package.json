@@ -12,34 +12,10 @@
 			},
 			"./index.js"
 		],
-		"./polyfill": [
-			{
-				"import": "./polyfill.mjs",
-				"default": "./polyfill.js"
-			},
-			"./polyfill.js"
-		],
-		"./implementation": [
-			{
-				"import": "./implementation.mjs",
-				"default": "./implementation.js"
-			},
-			"./implementation.js"
-		],
-		"./shim": [
-			{
-				"import": "./shim.mjs",
-				"default": "./shim.js"
-			},
-			"./shim.js"
-		],
-		"./auto": [
-			{
-				"import": "./auto.mjs",
-				"default": "./auto.js"
-			},
-			"./auto.js"
-		],
+		"./polyfill": "./polyfill.js",
+		"./implementation": "./implementation.js",
+		"./shim": "./shim.js",
+		"./auto": "./auto.js",
 		"./package.json": "./package.json"
 	},
 	"scripts": {
