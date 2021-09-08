@@ -5,6 +5,24 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [v1.0.2](https://github.com/es-shims/Object.getPrototypeOf/compare/v1.0.1...v1.0.2) - 2021-09-08
+
+### Commits
+
+- [Refactor] remove unnecessary ESM files [`1344709`](https://github.com/es-shims/Object.getPrototypeOf/commit/1344709603a7a6b44aabff062c5942243ebb92df)
+- [actions] use `node/install` instead of `node/run`; use `codecov` action [`6cf0ea2`](https://github.com/es-shims/Object.getPrototypeOf/commit/6cf0ea27bf38770c5ee3bad661893ce98da710e2)
+- [meta] `npx auto-changelog` [`db72bad`](https://github.com/es-shims/Object.getPrototypeOf/commit/db72bad0f68c3866486fbc1a0c4a0a6337ef84cf)
+- [Dev Deps] update `eslint`, `@ljharb/eslint-config`, `@es-shims/api`, `tape` [`a57eae1`](https://github.com/es-shims/Object.getPrototypeOf/commit/a57eae1f44bc5648644b50cda3258edf701eea68)
+- [Dev Deps] update `eslint`, `@ljharb/eslint-config`, `aud`, `tape` [`cfbb551`](https://github.com/es-shims/Object.getPrototypeOf/commit/cfbb5516fa1b05b1ad1cb36f67ecb68d8ba85208)
+- [readme] add actions and codecov badges [`a8664a2`](https://github.com/es-shims/Object.getPrototypeOf/commit/a8664a2f49b20907acb128236feb74ed2c48f19f)
+- [Dev Deps] update `eslint`, `@ljharb/eslint-config`, `aud`, `auto-changelog` [`72efb2b`](https://github.com/es-shims/Object.getPrototypeOf/commit/72efb2be16b14a2e1a4a2b8e59832ec4a2e373f8)
+- [actions] update workflows [`cdb2fe6`](https://github.com/es-shims/Object.getPrototypeOf/commit/cdb2fe6664e6317e92cad847b41181009bc0d52b)
+- [Dev Deps] update `aud`, `eslint` [`9c702ef`](https://github.com/es-shims/Object.getPrototypeOf/commit/9c702ef95455c772235716ee325b70bf78c03094)
+- [meta] use `prepublishOnly` script for npm 7+ [`4fe0f9a`](https://github.com/es-shims/Object.getPrototypeOf/commit/4fe0f9a3405e8c03e786740aac97e943bffe9ecc)
+- [Deps] update `es-abstract` [`8b5a4e8`](https://github.com/es-shims/Object.getPrototypeOf/commit/8b5a4e86747f7afe99169f6c6f6712cb7dfdc24e)
+- [Deps] update `es-abstract` [`49ac651`](https://github.com/es-shims/Object.getPrototypeOf/commit/49ac6515761a38b7ffd11cfe7cd5b0de6276a85d)
+- [Deps] update `es-abstract` [`6025f20`](https://github.com/es-shims/Object.getPrototypeOf/commit/6025f2022985b478e83be7603a607f55c7ca4adc)
+
 ## [v1.0.1](https://github.com/es-shims/Object.getPrototypeOf/compare/v1.0.0...v1.0.1) - 2021-01-12
 
 ### Commits
