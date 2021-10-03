@@ -8,11 +8,13 @@ jobs:
     runs-on: ubuntu-latest
 
     strategy:
+      fail-fast: false
       matrix:
         include:
           - node-version: 'lts/*'
           - node-version: '14.13'
           - node-version: '13.7'
+          - node-version: '12.20'
           - node-version: '12.17'
 
     steps:
@@ -22,6 +24,7 @@ jobs:
         with:
           node-version: ${{ matrix.node-version }}
       - run: npm run tests-esm
+      - uses: codecov/codecov-action@v1
 
   node:
     name: 'node, notable ESM minors'
