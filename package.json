@@ -61,7 +61,7 @@
 		"node": ">= 0.4"
 	},
 	"devDependencies": {
-		"@es-shims/api": "^2.2.1",
+		"@es-shims/api": "^2.2.2",
 		"@ljharb/eslint-config": "^18.0.0",
 		"aud": "^1.1.5",
 		"auto-changelog": "^2.3.0",
