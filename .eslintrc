@@ -5,7 +5,6 @@
 
 	"rules": {
 		"id-length": 0,
-		"max-statements": [2, 20],
 		"new-cap": [2, {
 			"capIsNewExceptions": [
 				"ReflectGetPrototypeOf",
@@ -14,13 +13,4 @@
 			],
 		}],
 	},
-
-	"overrides": [
-		{
-			"files": "**/*.mjs",
-			"rules": {
-				"no-restricted-exports": 1,
-			},
-		},
-	],
 }
