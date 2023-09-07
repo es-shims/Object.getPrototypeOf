@@ -1,6 +1,6 @@
 'use strict';
 
-var ToObject = require('es-abstract/2022/ToObject');
+var ToObject = require('es-abstract/2023/ToObject');
 
 var ReflectGetPrototypeOf = require('reflect.getprototypeof');
 

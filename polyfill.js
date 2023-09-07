@@ -1,6 +1,6 @@
 'use strict';
 
-var RequireObjectCoercible = require('es-abstract/2022/RequireObjectCoercible');
+var RequireObjectCoercible = require('es-abstract/2023/RequireObjectCoercible');
 var implementation = require('./implementation');
 
 var hasProto = [].__proto__ === Array.prototype; // eslint-disable-line no-proto
