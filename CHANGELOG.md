@@ -5,6 +5,14 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [v1.0.6](https://github.com/es-shims/Object.getPrototypeOf/compare/v1.0.5...v1.0.6) - 2024-03-16
+
+### Commits
+
+- [meta] remove useless ESM [`3d76802`](https://github.com/es-shims/Object.getPrototypeOf/commit/3d76802b41c3815e2e30a1de8e560e1db2c153a6)
+- [Refactor] replace `es-abstract` with `es-object-atoms`; update `call-bind`, `define-properties`, `reflect.getprototypeof` [`7824d81`](https://github.com/es-shims/Object.getPrototypeOf/commit/7824d81a3b6aea7a054038a1ddd6b3e5add73663)
+- [Dev Deps] update `aud`, `npmignore`, `tape` [`d87f382`](https://github.com/es-shims/Object.getPrototypeOf/commit/d87f38214f54c260cdc1f0d912972adf777042fd)
+
 ## [v1.0.5](https://github.com/es-shims/Object.getPrototypeOf/compare/v1.0.4...v1.0.5) - 2023-09-07
 
 ### Commits
