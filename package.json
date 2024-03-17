@@ -83,10 +83,10 @@
 		"hideCredit": true
 	},
 	"dependencies": {
-		"call-bind": "^1.0.2",
-		"define-properties": "^1.2.0",
-		"es-abstract": "^1.22.1",
-		"reflect.getprototypeof": "^1.0.4"
+		"call-bind": "^1.0.7",
+		"define-properties": "^1.2.1",
+		"es-object-atoms": "^1.0.0",
+		"reflect.getprototypeof": "^1.0.5"
 	},
 	"publishConfig": {
 		"ignore": [
