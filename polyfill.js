@@ -3,12 +3,7 @@
 var RequireObjectCoercible = require('es-object-atoms/RequireObjectCoercible');
 var implementation = require('./implementation');
 
-var hasProto = [].__proto__ === Array.prototype; // eslint-disable-line no-proto
-
-var getProto = function getPrototypeOf(value) {
-	RequireObjectCoercible(value);
-	return value.__proto__; // eslint-disable-line no-proto
-};
+var getProto = require('get-proto');
 
 var $getPrototypeOf = Object.getPrototypeOf;
 var getPrototypeOfPrimitivesToo = function getPrototypeOf(value) {
@@ -25,8 +20,5 @@ module.exports = function getPolyfill() {
 		}
 		return $getPrototypeOf;
 	}
-	if (hasProto) {
-		return getProto;
-	}
-	return implementation;
+	return getProto || implementation;
 };
