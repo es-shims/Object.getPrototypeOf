@@ -5,6 +5,19 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [v1.0.7](https://github.com/es-shims/Object.getPrototypeOf/compare/v1.0.6...v1.0.7) - 2025-01-02
+
+### Commits
+
+- [actions] split out node 10-20, and 20+ [`66e0766`](https://github.com/es-shims/Object.getPrototypeOf/commit/66e0766e7510e6eb9ae4d720b569130740b73072)
+- [Tests] remove unused ESM tests [`038e9c6`](https://github.com/es-shims/Object.getPrototypeOf/commit/038e9c6cc3985b063a13eac48a61eb801d9e6153)
+- [Refactor] use `get-proto` directly [`675ecee`](https://github.com/es-shims/Object.getPrototypeOf/commit/675eceeeb0660376dba8a8834f4fccbe2ee1b869)
+- [Dev Deps] update `@es-shims/api`, `@ljharb/eslint-config`, `auto-changelog`, `tape` [`d606eaa`](https://github.com/es-shims/Object.getPrototypeOf/commit/d606eaa60d4edbbb1f1c938b0008495415365ac3)
+- [Deps] update `call-bind`, `reflect.getprototypeof` [`004d807`](https://github.com/es-shims/Object.getPrototypeOf/commit/004d807467371da2094a5c3602da87a4d5cd497d)
+- [Tests] replace `aud` with `npm audit` [`67b494b`](https://github.com/es-shims/Object.getPrototypeOf/commit/67b494b5bd1f674192c9942da81af008692cdd65)
+- [Dev Deps] add missing dev dep [`1993c8d`](https://github.com/es-shims/Object.getPrototypeOf/commit/1993c8dcf7d45c6a7d9c007290cadc01770ddf54)
+- [Dev Deps] add missing peer dep [`bfe72fa`](https://github.com/es-shims/Object.getPrototypeOf/commit/bfe72fa67c4257c994f97bc60b6e34951ad7ed70)
+
 ## [v1.0.6](https://github.com/es-shims/Object.getPrototypeOf/compare/v1.0.5...v1.0.6) - 2024-03-16
 
 ### Commits
